@@ -69,3 +69,33 @@ Retorno:
   ]
 }
 ```
+## POST "equipments"
+
+**Payload da requisição:**
+
+```json
+{
+  "equipment": "Veneno mortal",
+  "ship_nm": "Nave marciana 2"
+}
+```
+
+
+## POST "ships"
+**Payload da requisição:**
+
+```json
+{
+  "ship_sg": "NM2",
+  "ship_nm": "Nave marciana 2"
+}
+```
+Retorno:
+```json
+{
+  "id": "64dbcb5d793a7800212e206d",
+  "ship_nm": "Nave marciana 2",
+  "ship_sg": "NM2",
+  
+}
+```
