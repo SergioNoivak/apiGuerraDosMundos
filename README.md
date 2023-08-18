@@ -24,7 +24,6 @@ Campos de Query String:
 
 Retorno:
 ```json
-
 {
   "count": 2,
   "rows": [
