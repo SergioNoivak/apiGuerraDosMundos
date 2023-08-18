@@ -3,6 +3,7 @@
 ## Introdução
 
 *"Guerra dos Mundos"* é um romance de ficção científica escrito pelo autor britânico H.G. Wells e publicado pela primeira vez em 1898. É uma das obras mais conhecidas e influentes no gênero da invasão alienígena e tem sido uma fonte de inspiração para várias adaptações em diferentes mídias, incluindo filmes, séries de TV, quadrinhos e mais.
+![image](https://github.com/SergioNoivak/apiGuerraDosMundos/assets/28708432/1e805ca4-4856-4f59-ba43-9bafc5935ca5)
 
 A história se passa na Inglaterra vitoriana e é narrada em primeira pessoa por um protagonista anônimo, frequentemente chamado de *"Narrador"*, que testemunha os eventos extraordinários da invasão alienígena. A narrativa começa com misteriosas explosões em Marte que chamam a atenção dos astrônomos da Terra. Logo, enormes cilindros metálicos caem na Terra, revelando-se como naves alienígenas. De dentro desses cilindros emergem tripods (*tripés*), máquinas altas e mortais, controladas por uma raça alienígena avançada e hostil.
 
