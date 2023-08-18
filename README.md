@@ -23,6 +23,8 @@ Campos de Query String:
 - limit: 100
 
 Retorno:
+```json
+
 {
   "count": 2,
   "rows": [
@@ -30,17 +32,15 @@ Retorno:
       "ship_id": "5ecd7e1c6c4dc6feb18f8131",
       "ship_nm": "Nave marciana 1",
       "equipment": "Raio de calor destrutivo",
-      ...
     },
     {
       "ship_id": "5ecd7e1c6c4dc6feb18f813c",
       "ship_nm": "Nave marciana 2",
       "equipment": "Veneno mortal",
-      ...
     }
   ]
 }
-
+```
 ## GET "ships"
 
 Campos de Query String:
@@ -97,3 +97,97 @@ Retorno:
   
 }
 ```
+
+## PUT "equipments"
+
+**Payload da requisição:**
+
+```json
+{
+  "equipment": "Veneno mortal",
+  "ship_id": "64d4cf463d9e990021203d82",
+  "ship_nm": "Nave marciana 2"
+}
+```
+## PUT "ships"
+**Payload da requisição:**
+
+```json
+{
+  "ship_sg": "NM2",
+  "ship_nm": "Nave marciana 2"
+}
+```
+
+## DELETE “equipments/{id}”
+sem payload e sem retorno
+## DELETE “ships/{id}”
+sem payload e sem retorno 
+
+# Exercício 2: Exclusão múltipla
+
+## Implemente as rotas de exclusão múltipla
+
+**POST** `equipments/deleteMany`
+
+**Payload:**
+```json
+{
+  "ids": [
+    "64d4cf463d9e990021203d7e",
+    "64d4cf463d9e990021203d7f"
+  ]
+}
+
+```
+
+**POST** `ships/deleteMany`
+
+**Payload:**
+```json
+{
+  "ids": [
+    "64d4cf463d9e990021203d7e",
+    "64d4cf463d9e990021203d7f"
+  ]
+}
+```
+
+# Exercício 3: Filtros
+
+## Implemente os filtros para a tabela do sistema:
+
+**GET** `equipments/uniqueAttributes`
+
+**Payload:**
+Campo | Valor
+----- | -----
+page  | 1
+sort  | 
+order | 
+limit | 100
+
+**Retorno:**
+```json
+[
+ {
+   "_id": null,
+   "ship_nm": [
+     "Nave marciana 2"
+   ],
+   "equipment": [
+     "Raio mortal"
+   ]
+ }
+]
+```
+ Atualize a rota GET `equipments` para aceitar os filtros no payload:
+
+**Payload:**
+Campo     | Valor
+--------- | -----
+page      | 1
+sort      | 
+order     | 
+limit     | 100
+ship_nm   | Nave marciana 2
