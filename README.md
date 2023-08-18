@@ -12,6 +12,8 @@ Os marcianos, como são chamados, lançam uma ofensiva implacável contra a huma
 ## Exercício 1: CRUD Equipamentos
 
 Nesse sentido, imagine que você foi contratado pela raça alienígena para desenvolver uma API Node.JS para gerenciar todos os equipamentos das Naves alienígenas, equipamentos como raios de calor destrutivos e um veneno mortal, e outros equipamentos que podem surgir.
+![image](https://github.com/SergioNoivak/apiGuerraDosMundos/assets/28708432/60b9d1cf-4685-4ce2-b815-08dcfcc1229f)
+![image](https://github.com/SergioNoivak/apiGuerraDosMundos/assets/28708432/e5c91e4d-47c7-4195-8a4e-edc9494aaf8e)
 
 O armazenamento no banco de dados MongoDB deve seguir o diagrama UML.
 
