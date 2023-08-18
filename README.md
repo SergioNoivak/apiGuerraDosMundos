@@ -16,7 +16,6 @@ O armazenamento no banco de dados MongoDB deve seguir o diagrama UML.
 
 ### GET "equipments"
 
-```markdown
 Campos de Query String:
 - page: 1
 - sort: equipment
@@ -41,7 +40,6 @@ Retorno:
     }
   ]
 }
-```
 
 ## GET "ships"
 
